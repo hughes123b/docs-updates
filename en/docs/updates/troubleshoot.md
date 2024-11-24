@@ -126,7 +126,7 @@ Please be sure to attach the details of the error when you report it. You can ge
 <tr>
 <td>Insufficient disk space</td>
 <td>The machine does not have sufficient space to update the product.</td>
-<td>Clear some disk space in the machine and run the update tool again.</td>
+<td>Clear some disk space in the machine and run the update tool again. For more information on the issue please refer the <a href="../../updates/best-practices">Best Practices page</a></td>
 </tr>
 <tr>
 <td>Error while extracting downloaded clients</td>
@@ -144,6 +144,12 @@ by default) directory and run the update tool again.</p>
     <p>If the error still persists, please report the issue to <a href="https://wso2.com/contact">https://wso2.com/contact</a>.</p>
     <p>Please be sure to attach the details of the error when you report it. You can get the details by getting the log
      files in updates/logs in the product directory.</p></td>
+</tr>
+<tr>
+<td>Backup directory &lt;backup_directory&gt; cannot be inside the product directory &lt;product_directory&gt;.</td>
+<td>Backup and the product pack location cannot be same.</td>
+<td><p>Change the backup location to a new location that is not within the product pack.
+       For more details on changing the backup location refer <a href="../faq/#how-to-change-the-backup-location">how to change the backup location</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -220,7 +226,7 @@ You may encounter the following error messages due to permission restrictions at
 </tbody>
 </table>
 
-If you encounter any of above listed OS related issue:
+If you encounter any of the above listed OS related issue:
 
 * Check the OS-level permissions for creating directories in the relevant locations. 
 
